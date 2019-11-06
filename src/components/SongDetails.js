@@ -1,6 +1,8 @@
 import React from "react";
 import { connect } from "react-redux";
 
+// {song} was originally (props)
+// but we extraced it to make it easier
 const SongDetail = ({ song }) => {
   if (!song) {
     return <div>select a song</div>;
