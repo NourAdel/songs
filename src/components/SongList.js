@@ -9,7 +9,7 @@ class SongList extends Component {
                 <div className="item" key={song.title}>
                     <div className=" right floated content">
                         <button 
-                        className="ui button primary"
+                        className="ui grey button"
                         onClick={()=> this.props.selectSong(song)}>
                             Select
                         </button>
@@ -32,7 +32,6 @@ class SongList extends Component {
 
 const mapStateToProps = (state) =>
 {
-    console.log(state);
     return state;
 }
  
